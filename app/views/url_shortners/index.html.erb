@@ -1,0 +1,14 @@
+<h1><center>Wynwood UrlShortner</center></h1>
+
+<% @url_shortners.each do |us| %>
+  <div class="">
+    <label for="">Original Url</label>
+    <p><%= us.long_url%></p>
+
+    <label for="">Short Url</label>
+    <%= link_to us.short_url, us.long_url%>
+  </div>
+  <hr>
+  <% end %>
+
+  <% link_to "New Shortner", new_url_shortner_path %>
