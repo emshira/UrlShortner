@@ -1,24 +1,10 @@
-# README
+# URLShortener
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=================
 
-Things you may want to cover:
+Basic Shortener: Ability to enter a url in a form and receive a shortener url as an integer(id) when visiting this shortened url, redirected to the original url
 
-* Ruby version
+===================
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version 2.4.2
+* Rails version 5.1.4
